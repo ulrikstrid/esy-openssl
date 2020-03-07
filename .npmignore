@@ -1,0 +1,4 @@
+.ci
+esy
+.travis.yml
+azure-pipelines.yml
