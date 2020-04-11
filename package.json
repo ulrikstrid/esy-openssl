@@ -1,16 +1,11 @@
 {
-  "name": "esy-openssl",
-  "version": "1.1.1000",
+  "name": "@reason-native-web/esy-openssl",
+  "version": "1.1.1001",
   "description": "Mirror of OpenSSL",
   "license": "Apache 2.0",
-  "source": "https://github.com/openssl/openssl/archive/OpenSSL_1_1_1d.tar.gz#df0ee4811c87c209ebadb4e6b203d1e560d00f9a",
+  "source": "https://github.com/openssl/openssl/archive/OpenSSL_1_1_1f.tar.gz#62603b581260c8031aadb544548de2b6691cbbe6",
   "override": {
     "build": [
-      [
-        "bash",
-        "-c",
-        "#{os == 'windows' ? 'patch -p1 < openssl-1.1.1d-mingw.patch' : 'true'}"
-      ],
       [
         "bash",
         "-c",
